@@ -108,6 +108,31 @@ def print_menu(cart):
             quantity = int(input("Enter item quantity: "))
             cart.add_item(ItemToPurchase(item_name = name, item_price = price, item_quantity = quantity, item_description = description))
 
+        elif user_input == "r":
+            print("Remove item from cart")
+            name = str(input("Enter item name: "))
+            cart.remove_item(item_name = name)
+
+        elif user_input == "c":
+            print("Modify Item in Cart")
+            name = str(input("Enter item name: "))
+            price = float(input("Enter item price: "))
+            quantity = int(input("Enter item quantity: "))
+            description = str(input("Enter item description: "))
+            cart.modify_item(ItemToPurchase(item_name = name, item_price = price, item_quantity = quantity, item_description=description))
+
+        elif user_input == "i":
+            print("Output Item's Descriptions")
+            cart.print_descriptions()
+
+        elif user_input == "o":
+            print("Output Shopping Cart")
+            cart.print_total()
+
+
+
+
+
 
 
 

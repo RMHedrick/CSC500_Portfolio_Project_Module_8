@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22217925-4b1b-4df8-b2ed-178e143ee5c0" name="Changes" comment="shopping cart - more method updates">
+    <list default="true" id="22217925-4b1b-4df8-b2ed-178e143ee5c0" name="Changes" comment="shopping cart - working on menu">
       <change beforePath="$PROJECT_DIR$/Shopping Cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopping Cart.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,13 +91,22 @@
       <option name="project" value="LOCAL" />
       <updated>1766350228115</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="shopping cart - working on menu">
+      <option name="closed" value="true" />
+      <created>1766353126214</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766353126214</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed shopping cart init parameters. will need to fix item to purchase" />
     <MESSAGE value="shopping cart - modify item method" />
     <MESSAGE value="shopping cart - more method updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping cart - more method updates" />
+    <MESSAGE value="shopping cart - working on menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping cart - working on menu" />
   </component>
 </project>
