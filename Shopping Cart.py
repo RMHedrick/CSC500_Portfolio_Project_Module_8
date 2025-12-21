@@ -102,6 +102,7 @@ def print_menu(cart):
 
         if user_input == "a":
             print("Add item to cart")
+            print()
             name = str(input("Enter item name: "))
             description = str(input("Enter item description: "))
             price = float(input("Enter item price: "))
@@ -128,6 +129,19 @@ def print_menu(cart):
         elif user_input == "o":
             print("Output Shopping Cart")
             cart.print_total()
+
+print("Welcome to our store, let's get started.")
+customer_name = input("Enter customer name: ")
+current_date = input("Enter current date: ")
+
+print(f"Customer Name: {customer_name}")
+print(f"Current Date: {current_date}")
+
+cart = ShoppingCart(customer_name, current_date)
+print_menu(cart)
+
+
+
 
 
 
