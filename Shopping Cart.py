@@ -90,6 +90,7 @@ def print_menu(cart):
     user_input = ""
 
     while user_input != "q":
+        print()
         print("Menu")
         print("a - Add item to cart")
         print("r - Remove item from cart")
@@ -123,11 +124,13 @@ def print_menu(cart):
             cart.modify_item(ItemToPurchase(item_name = name, item_price = price, item_quantity = quantity, item_description=description))
 
         elif user_input == "i":
-            print("Output Item's Descriptions")
+            print("Output Items' Descriptions")
+            print()
             cart.print_descriptions()
 
         elif user_input == "o":
             print("Output Shopping Cart")
+            print()
             cart.print_total()
 
 print("Welcome to our store, let's get started.")
