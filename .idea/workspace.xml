@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22217925-4b1b-4df8-b2ed-178e143ee5c0" name="Changes" comment="shopping cart - menu built working user input start">
+    <list default="true" id="22217925-4b1b-4df8-b2ed-178e143ee5c0" name="Changes" comment="shopping cart - need menu to appear between loops">
       <change beforePath="$PROJECT_DIR$/Shopping Cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopping Cart.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +34,9 @@
     "accountId": "7ee518a9-b814-4dc8-9dc9-aa0286c6c9e8"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Shopping Cart.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -116,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766355104444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="shopping cart - need menu to appear between loops">
+      <option name="closed" value="true" />
+      <created>1766355244755</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1766355244755</updated>
+    </task>
+    <task id="LOCAL-00008" summary="shopping cart - need menu to appear between loops">
+      <option name="closed" value="true" />
+      <created>1766355721191</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766355721191</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,6 +145,7 @@
     <MESSAGE value="shopping cart - working on menu" />
     <MESSAGE value="shopping cart - menu built" />
     <MESSAGE value="shopping cart - menu built working user input start" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping cart - menu built working user input start" />
+    <MESSAGE value="shopping cart - need menu to appear between loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping cart - need menu to appear between loops" />
   </component>
 </project>

@@ -1,17 +1,16 @@
 #Item to purchase class with print item cost method
 
-## FIX ME will not be able to update properly - define in the init
 class ItemToPurchase:
-    def __init__(self, item_name = "none", item_price = 0.0, item_quantity = 0, item_description = "none"):
+    def __init__(self, item_name = "none", item_price = 0.0, item_quantity = 0, item_description = "none", total_cost = 0.0):
         self.item_name = item_name
         self.item_price = float(item_price)
         self.item_quantity = int(item_quantity)
         self.item_description = item_description
-        #self.total_cost = 0.0 #not needed in larger program
+        self.total_cost = float(total_cost)
 
-#  def print_item_cost(self):  #not needed in larger program
-#      self.total_cost = self.item_price * self.item_quantity
-#     print("{} {} @ ${:.2f} = ${:.2f}".format(self.item_name, self.item_quantity, self.item_price, self.total_cost))
+    def print_item_cost(self):
+        self.total_cost = self.item_price * self.item_quantity
+        print("{} {} @ ${:.2f} = ${:.2f}".format(self.item_name, self.item_quantity, self.item_price, self.total_cost))
 
 #Shopping cart class - Add, remove, modify, quantity, cost, total, unique objects, full description
 class ShoppingCart:
@@ -75,8 +74,8 @@ class ShoppingCart:
             print("Number of items:", len(self.cart_items))
 
             for item in self.cart_items:
-                total_cost = item.item_quantity * item.item_price
-                print("{} {} @ ${:.2f} = ${:.2f}".format(item.item_name, item.item_quantity, item.item_price, total_cost))
+                item.print_item_cost()
+
             print("Total: ${:.2f}".format(self.get_cost_of_cart()))
 
 
@@ -142,16 +141,3 @@ print(f"Current Date: {current_date}")
 
 cart = ShoppingCart(customer_name, current_date)
 print_menu(cart)
-
-
-
-
-
-
-
-
-
-
-
-
-
