@@ -2,15 +2,17 @@
 
 ## FIX ME will not be able to update properly - define in the init
 class ItemToPurchase:
-    def __init__(self):
-        self.total_cost = 0.0 #float
-        self.item_name = "none" #string
-        self.item_price = 0.0 #float
-        self.item_quantity = 0 #integer
+    def __init__(self, total_cost = 0.0, item_name = "none", item_description = "none", item_price = 0.0, item_quantity = 0):
+        self.total_cost = total_cost
+        self.item_name = item_name
+        self.item_description = item_description
+        self.item_price = item_price
+        self.item_quantity = item_quantity
 
-    def print_item_cost(self):
-        self.total_cost = self.item_price * self.item_quantity
-        print("{} {} @ ${:.2f} = ${:.2f}".format(self.item_name, self.item_quantity, self.item_price, self.total_cost))
+#From previous project.
+  #  def print_item_cost(self):
+  #      self.total_cost = self.item_price * self.item_quantity
+  #      print("{} {} @ ${:.2f} = ${:.2f}".format(self.item_name, self.item_quantity, self.item_price, self.total_cost))
 
 #Shopping cart class - Add, remove, modify, quantity, cost, total, unique objects, full description
 class ShoppingCart:
@@ -50,12 +52,37 @@ class ShoppingCart:
             print("Item not found in cart. Nothing Modified.")
 
 
-
     def get_num_items_in_cart(self):
+        total_items = 0
+        for item in self.cart_items:
+            quantity = item.item_quantity
+            total_items += quantity
+        return total_items
 
     def get_cost_of_cart(self):
+        total_cost = 0.0
+        for item in self.cart_items:
+            item_total = item.item_quantity * item.item_price
+            total_cost += item_total
+        return total_cost
 
     def print_total(self):
+        print("{self.customer_name}'s Shopping Cart - {self.current_date}")
+
+        if len(self.cart_items) == 0:
+            print("Shopping Cart Is Empty")
+        else:
+            print("Number of items:", len(self.cart_items))
+
+            for item in self.cart_items:
+                total_cost = item.item_quantity * item.item_price
+                print("{} {} @ ${:.2f} = ${:.2f}".format(item.item_name, item.item_quantity, item.item_price, total_cost))
+            print("Total: ${:.2f}".format(self.get_cost_of_cart))
+
 
     def print_descriptions(self):
+        print("{self.customer_name}'s Shopping Cart - {self.current_date}")
+        print("Item Descriptions")
+        for item in self.cart_items:
+            item.
 
