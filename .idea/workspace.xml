@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22217925-4b1b-4df8-b2ed-178e143ee5c0" name="Changes" comment="shopping cart - need menu to appear between loops">
+    <list default="true" id="22217925-4b1b-4df8-b2ed-178e143ee5c0" name="Changes" comment="shopping cart - got print_item_cost incorporated">
       <change beforePath="$PROJECT_DIR$/Shopping Cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopping Cart.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,9 @@
 }]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Shopping Cart.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
@@ -135,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766355721191</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="shopping cart - got print_item_cost incorporated">
+      <option name="closed" value="true" />
+      <created>1766358646574</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1766358646574</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,6 +157,7 @@
     <MESSAGE value="shopping cart - menu built" />
     <MESSAGE value="shopping cart - menu built working user input start" />
     <MESSAGE value="shopping cart - need menu to appear between loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping cart - need menu to appear between loops" />
+    <MESSAGE value="shopping cart - got print_item_cost incorporated" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping cart - got print_item_cost incorporated" />
   </component>
 </project>

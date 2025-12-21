@@ -19,10 +19,12 @@ class ShoppingCart:
         self.current_date = current_date
         self.cart_items = [] #list for shopping cart items
 
+#Add item to cart menu a
     def add_item(self, item):
         self.cart_items.append(item)
 
 
+#remove item to cart menu r, include not found logic
     def remove_item(self, item_name):
         for item in self.cart_items:
             if item.item_name == item_name:
@@ -32,6 +34,7 @@ class ShoppingCart:
             print("Item not found in cart. Nothing Removed.")
 
 
+#modify existing item, menu c, price, item quantity, and/or item description - include not found logic
     def modify_item(self, item_to_modify):
         for item in self.cart_items:
             if item.item_name == item_to_modify.item_name:
@@ -49,7 +52,7 @@ class ShoppingCart:
         else:
             print("Item not found in cart. Nothing Modified.")
 
-
+#returns the number of items in cart
     def get_num_items_in_cart(self):
         total_items = 0
         for item in self.cart_items:
@@ -57,6 +60,7 @@ class ShoppingCart:
             total_items += quantity
         return total_items
 
+#returns total cost of cart
     def get_cost_of_cart(self):
         total_cost = 0.0
         for item in self.cart_items:
@@ -64,6 +68,7 @@ class ShoppingCart:
             total_cost += item_total
         return total_cost
 
+#outputs shopping cart, menu o, includes: number of items, item name, item quanity, item cost, item total cost, cart total - includes empty logic
     def print_total(self):
         print(f"{self.customer_name}'s Shopping Cart - {self.current_date}")
         print()
@@ -78,13 +83,14 @@ class ShoppingCart:
 
             print("Total: ${:.2f}".format(self.get_cost_of_cart()))
 
-
+#outputs item descriptions, menu i, includes: item name and item description
     def print_descriptions(self):
         print(f"{self.customer_name}'s Shopping Cart - {self.current_date}")
         print("Item Descriptions")
         for item in self.cart_items:
             print("{}: {}".format(item.item_name, item.item_description))
 
+#menu functionality - corrects case sensitivity, and has an exit function.
 def print_menu(cart):
     user_input = ""
 
@@ -132,6 +138,7 @@ def print_menu(cart):
             print()
             cart.print_total()
 
+#Main program logic - user experience begins here
 print("Welcome to our store, let's get started.")
 customer_name = input("Enter customer name: ")
 current_date = input("Enter current date: ")
