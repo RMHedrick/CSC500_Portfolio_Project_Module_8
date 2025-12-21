@@ -87,17 +87,17 @@ class ShoppingCart:
             print("{}: {}".format(item.item_name, item.item_description))
 
 def print_menu(cart):
-    print("Menu")
-    print("a - Add item to cart")
-    print("r - Remove item from cart")
-    print("c - Change item quantity")
-    print("i - Output items' descriptions")
-    print("o - Output shopping cart")
-    print("q - Quit")
-
     user_input = ""
 
     while user_input != "q":
+        print("Menu")
+        print("a - Add item to cart")
+        print("r - Remove item from cart")
+        print("c - Change item quantity")
+        print("i - Output items' descriptions")
+        print("o - Output shopping cart")
+        print("q - Quit")
+
         user_input = input("Choose an option: ").lower()
 
         if user_input == "a":
