@@ -1,5 +1,4 @@
 #Item to purchase class with print item cost method
-
 class ItemToPurchase:
     def __init__(self, item_name = "none", item_price = 0.0, item_quantity = 0, item_description = "none", total_cost = 0.0):
         self.item_name = item_name
