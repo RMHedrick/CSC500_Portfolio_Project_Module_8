@@ -141,7 +141,6 @@ def print_menu(cart):
 print("Welcome to our store, let's get started.")
 customer_name = input("Enter customer name: ")
 current_date = input("Enter current date: ")
-
 print(f"Customer Name: {customer_name}")
 print(f"Current Date: {current_date}")
 
