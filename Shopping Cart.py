@@ -99,7 +99,7 @@ def print_menu(cart):
         print("Menu")
         print("a - Add item to cart")
         print("r - Remove item from cart")
-        print("c - Change item quantity")
+        print("c - Modify item in cart")
         print("i - Output items' descriptions")
         print("o - Output shopping cart")
         print("q - Quit")

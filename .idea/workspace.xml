@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22217925-4b1b-4df8-b2ed-178e143ee5c0" name="Changes" comment="shopping cart - got print_item_cost incorporated">
+    <list default="true" id="22217925-4b1b-4df8-b2ed-178e143ee5c0" name="Changes" comment="shopping cart - notes added">
       <change beforePath="$PROJECT_DIR$/Shopping Cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopping Cart.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766358646574</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="shopping cart - notes added">
+      <option name="closed" value="true" />
+      <created>1766359728406</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1766359728406</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +166,7 @@
     <MESSAGE value="shopping cart - menu built working user input start" />
     <MESSAGE value="shopping cart - need menu to appear between loops" />
     <MESSAGE value="shopping cart - got print_item_cost incorporated" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping cart - got print_item_cost incorporated" />
+    <MESSAGE value="shopping cart - notes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping cart - notes added" />
   </component>
 </project>
