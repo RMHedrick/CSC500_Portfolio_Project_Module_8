@@ -138,6 +138,7 @@ def print_menu(cart):
             cart.print_total()
 
 #Main program logic - user experience begins here
+print()
 print("Welcome to our store, let's get started.")
 customer_name = input("Enter customer name: ")
 current_date = input("Enter current date: ")
