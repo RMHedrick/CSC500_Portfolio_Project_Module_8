@@ -125,7 +125,7 @@ def print_menu(cart):
             price = float(input("Enter item price: "))
             quantity = int(input("Enter item quantity: "))
             description = str(input("Enter item description: "))
-            cart.modify_item(ItemToPurchase(item_name = name, item_price = price, item_quantity = quantity, item_description=description))
+            cart.modify_item(ItemToPurchase(item_name = name, item_price = price, item_quantity = quantity, item_description = description))
 
         elif user_input == "i":
             print("Output Items' Descriptions")
