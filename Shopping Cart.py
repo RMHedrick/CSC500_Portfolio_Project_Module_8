@@ -75,7 +75,7 @@ class ShoppingCart:
         if len(self.cart_items) == 0:
             print("Shopping Cart Is Empty")
         else:
-            print("Number of items:", len(self.cart_items))
+            print("Number of items:", self.get_num_items_in_cart())
 
             for item in self.cart_items:
                 item.print_item_cost()
